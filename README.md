@@ -97,8 +97,11 @@ If you get stuck or when you finished the exercies, the is finished example is [
 ## Step 5, click clicking on a city, route to a new page
 
 In this exercise we setup routing for our application.
+
+First step is to install vue-cli if you dont already have that installed.
+
 Start with `vue add router` in the terminal. This will add vue-router plus given an example setup of routing.
-When I did this in the exercises, it didnt get the setup completly right, since we have written some code in App.vue.
+When I did this in the exercises, it didnt get the setup completely right, since we have written some code in App.vue.
 After doing the add router command, the App.vue should look like [this](examples/step-5-app.PNG). In order to get this right, we also need to move all the App.vue code to a new component. I put mine in components/ListHandler.vue. In files structure looks like [this](examples/step-5-structure.PNG) now.
 
 After we have added routing we also need to use the routing, the thought of this exercise is that when selecting a city in the city list, to route to a new page, where we in the next exercise can display a forecast for the selected city.
