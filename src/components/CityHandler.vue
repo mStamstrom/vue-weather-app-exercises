@@ -112,7 +112,7 @@ export default {
     <h1 class="header-title">{{ this.cityName }}</h1>
     <div class="selected-weather">
       <div v-if="selectedWeather.main">
-        {{ Math.round(selectedWeather.main.temp) }}
+        {{ Math.round(selectedWeather.main.temp) }}°
       </div>
     </div>
     <div class="forecast-days">
